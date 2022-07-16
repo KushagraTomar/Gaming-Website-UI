@@ -495,3 +495,59 @@ body {
     background: var(--light-color);
     transition: 0.3s all linear;
 }
+
+/* responsive */
+@media (max-width:774px) {
+    .notification {
+        right: 1rem;
+    }
+    .menu img {
+        width: 480px;
+    }
+    .home {
+        min-height: 300px;
+    }
+    .home-text h1 {
+        font-size: 2rem;
+    }
+    .btn {
+        padding: 12px 17px;
+    }
+    .screenshots-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        max-width: 300px;
+        margin: auto;
+        width: 100%;
+    }
+}
+@media (max-width:1400px) {
+    .home-container {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .navbar-container {
+        padding: 10px 0;
+    }
+    .notification {
+        right: 5rem;
+    }
+    .menu img {
+        width: 500px;
+    }
+    section {
+        padding: 3rem 0 2rem;
+    }
+    .home {
+        margin-top: 4rem !important;
+        min-height: 440px;
+    }
+    .home img {
+        border-radius: 1rem;
+    }
+    .video-container {
+        margin-top: 2rem !important;
+    }
+}
